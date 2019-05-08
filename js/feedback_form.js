@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
 		var str = $(this).serialize();
 		$.ajax({
 			type: "POST",
-			url: "/feedback_form.php",
+			url: "http://exiragor.pw/anoft/feedback_form.php",
 			data: str,
 			success: function(msg) {
 				//if(msg == 'OK') {
