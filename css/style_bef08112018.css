@@ -1,0 +1,180 @@
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+}
+body{
+	min-width:980px;
+	background:#f1f1f1;
+	background:linear-gradient(-45deg, #e5c9c6, #e5e2dd, #c6d1e5) fixed;
+}
+.headline{
+	margin:80px auto 0;
+	font-family:'Roboto', sans-serif;
+	font-size:38px;
+	text-align:center;
+}
+
+.social-links{
+	width:500px;
+	margin:10% auto 0;
+	border-bottom:3px solid black;
+	border-top:3px solid black;
+}
+.social-links ul{
+	text-align: center;
+}
+.social-links ul li{
+	width: 81px;
+	height: 81px;
+	display: inline-block;
+	margin-right: 20px;
+	margin:0 40px 0 0;
+	margin-top:10px;
+	/*position: relative;*/
+	background:orange;
+}
+.social-links ul li:last-child{
+	margin-right: 0;
+	margin:0;
+}
+.social-links ul li a{
+	width: 81px;
+	height: 81px;
+	float: left;
+	/*background:rgba(0,0,0,.1);*/
+}
+.social-links ul .social_vk{
+	background:url(/images/social/vk.svg) no-repeat;
+	background-size:100% 100%;
+}
+.social-links ul .social_vk:hover{
+	background:url(/images/social/vk_c.svg) no-repeat;
+	background-size:100% 100%;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.social-links ul .social_fb{
+	background:url(/images/social/facebook.svg) no-repeat;
+	background-size:100% 100%;
+}
+.social-links ul .social_fb:hover{
+	background:url(/images/social/facebook_c.svg) no-repeat;
+	background-size:100% 100%;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.social-links ul .social_g{
+	background:url(/images/social/googleplus.svg) no-repeat;
+	background-size:100% 100%;
+	/*-moz-transition: all 0.1s ease-out;
+	-o-transition: all 0.1s ease-out;
+	-webkit-transition: all 0.1s ease-out;*/
+}
+.social-links ul .social_g:hover{
+	background:url(/images/social/googleplus_c.svg) no-repeat;
+	background-size:100% 100%;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.social-links ul .social_t{
+	background:url(/images/social/twitter.svg) no-repeat;
+	background-size:100% 100%;
+}
+.social-links ul .social_t:hover{
+	background:url(/images/social/twitter_c.svg) no-repeat;
+	background-size:100% 100%;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.projects{
+	width:500px;
+	margin:6% auto 0;
+	/*border-bottom:3px solid black;
+	border-top:3px solid black;*/
+}
+.projects ul{
+	text-align: center;
+}
+.projects ul li{
+	width: 162px;
+	height: 162px;
+	display: inline-block;
+	margin-right: 20px;
+	margin:0 40px 0 0;
+	margin-top:10px;
+	/*position: relative;*/
+	background:orange;
+	-webkit-animation: pulsation 5s infinite ease;
+	-moz-animation: pulsation 5s infinite ease;
+	-o-animation: pulsation 5s infinite ease;
+}
+.projects ul li:last-child{
+	margin-right: 0;
+	margin:0;
+}
+.projects ul li a{
+	width: 162px;
+	height: 162px;
+	float: left;
+	/*background:rgba(0,0,0,.1);*/
+}
+.projects ul .offline{
+	background:url(/images/other/offline.svg) no-repeat;
+	background-size:100% 100%;
+}
+.projects ul .offline:hover{
+	background:url(/images/other/offline_c.svg) no-repeat;
+	background-size:100% 100%;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+@keyframes pulsation{
+	0%{-webkit-transform: scale(1.00);}
+	50%{-webkit-transform: scale(1.05);}
+	100%{-webkit-transform: scale(1.00);}
+	0%{-moz-transform: scale(1.00);}
+	50%{-moz-transform: scale(1.05);}
+	100%{-moz-transform: scale(1.00);}
+	0%{-o-transform: scale(1.00);}
+	50%{-o-transform: scale(1.05);}
+	100%{-o-transform: scale(1.00);}
+}
+
+.city{
+	width:100%;
+	height:220px;
+	position:absolute;
+	bottom:0px;
+	background:black;
+	z-index:1;
+	background:url(/images/other/city.svg);
+	background-repeat:repeat-x;
+
+}
+.hidden{
+	position:absolute;
+	opacity:0;
+}
+.hidden div:nth-child(1){
+	background:url(/images/social/vk_c.svg) no-repeat;
+}
+.hidden div:nth-child(2){
+	background:url(/images/social/facebook_c.svg) no-repeat;
+}
+.hidden div:nth-child(3){
+	background:url(/images/social/googleplus_c.svg) no-repeat;
+}
+.hidden div:nth-child(4){
+	background:url(/images/social/twitter_c.svg) no-repeat;
+}
+.hidden div:nth-child(5){
+	background:url(/images/other/offline_c.svg) no-repeat;
+}

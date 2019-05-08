@@ -1,0 +1,302 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight:200;
+}
+.limiter{
+    max-width:1080px;
+    height:auto;
+    margin:0 auto;
+    /*background:#e3e3e3;*/
+}
+.header{
+    width:100%;
+    height:100px;
+    position:fixed;
+    top:0;
+    background:#ffffff;
+    vertical-align:middle;
+    text-align:center;
+    z-index:1;
+}
+.header a{
+    width:80px;
+    height:80px;
+    margin:10px 0;
+    display:inline-block;
+    background:url(/images/ALB_GaussianBlur05.png) no-repeat;
+    background-size:100% 100%;
+}
+.slider{
+    width:100%;
+    height:calc(100vh - 200px);
+    margin:100px 0 100px;
+    background:#434;
+}
+.slider a{
+    width:100%;
+    height:100%;
+    display:block;
+    background:url(/images/OfflinePic1.jpg) no-repeat;
+    background-size:cover;
+}
+.about{
+    width:100%;
+    height:200px;
+
+    background:#ffebdc;
+}
+.contact{
+    width:100%;
+    height:auto;
+    text-align:center;
+
+    /*background:#faffdc;*/
+}
+.contact form{
+    width:546px;
+    height:auto;
+    margin:0 auto;
+}
+.contact label{
+    margin:28px 0 6px 0;
+    display:block;
+    text-align:left;
+    color:#1e1e1e;
+    font-size:22px;
+}
+
+label{
+  position:relative;
+}
+label span{
+  position:absolute;
+  bottom:0;
+  left:12px;
+  opacity:0.5;
+  visibility:hidden;
+  transition:0.2s;
+  vertical-align:middle;
+  
+    line-height:38px;
+    box-sizing:border-box;
+    cursor:text;
+}
+label input:placeholder-shown ~ span{
+  visibility:visible;
+}
+label input:placeholder-shown:focus ~ span,
+label input:not(:placeholder-shown) ~ span{
+  left:-100px;
+  opacity:1;
+  /*font-size:120%;*/
+  visibility:visible;
+}
+label:nth-child(1) input:placeholder-shown:focus ~ span,
+label:nth-child(1) input:not(:placeholder-shown) ~ span{
+  left:-70px;
+}
+label:nth-child(2) input:placeholder-shown:focus ~ span,
+label:nth-child(2) input:not(:placeholder-shown) ~ span{
+  left:-65px;
+}
+label:nth-child(3) input:placeholder-shown:focus ~ span,
+label:nth-child(3) input:not(:placeholder-shown) ~ span{
+  left:-84px;
+}
+
+
+
+
+textarea + span{
+    top:0;
+}
+label textarea:placeholder-shown ~ span{
+  visibility:visible;
+}
+label textarea:placeholder-shown:focus ~ span,
+label textarea:not(:placeholder-shown) ~ span{
+  left:-100px;
+  opacity:1;
+  /*font-size:120%;*/
+  visibility:visible;
+}
+
+
+
+.contact input{
+    width:546px;
+    height:40px;
+    padding:12px;
+    border:1px solid #cccccc;
+    border-radius:2px;
+    background:#fafafa;
+    font-size:14px;
+}
+.contact textarea{
+    width:546px;
+    min-height:80px;
+    padding:12px;
+    border:1px solid #cccccc;
+    border-radius:2px;
+    background:#fafafa;
+    resize:vertical;
+}
+.button_and_comment{
+    width:100%;
+    height:46px;
+    margin:28px 0 0;
+}
+.contact button{
+    width:136px;
+    height:46px;
+    margin:0 0 0;
+    /*display:inline-block;*/
+    float:left;
+    /*border:2px solid #2b2b2b;*/
+    border:2px solid #000000;
+    color:#2b2b2b;
+    background:#ffffff;
+    transition:0.1s background linear, 0.1s color linear;
+    font-size:14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    letter-spacing:2px;
+    cursor:pointer;
+    box-sizing:border-box;
+}
+.contact button:hover{
+    /*background:#2b2b2b;*/
+    background:#000000;
+    color: #ffffff;
+    transition:0.1s background linear, 0.1s color linear;
+}
+#note{
+    width:calc(100% - 136px);
+    height:46px;
+    margin:0 0 0;
+    float:right;
+    /*border:2px solid #2b2b2b;*/
+    color:#2b2b2b;
+    background:#ffffff;
+    transition:0.1s background linear, 0.1s color linear;
+    font-size:14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    letter-spacing:2px;
+    box-sizing:border-box;
+    line-height:48px;
+    color:#5ba14a;
+    color:#47813B;
+}
+
+
+
+.join{
+    width:100%;
+    height:auto;
+        margin:34px 0 18px;/*tmp_sol*/
+    /*align-items:center;
+    align-content:center;
+    justify-content:center;
+    align-items:center;*/
+    text-align:center;
+
+    /*background:#dcf9ff;*/
+}
+.join a{
+    width:60px;
+    height:60px;
+    margin:10px;
+    background:gray;
+	display:inline-block;
+	/*transition: 0.05s;*/
+}
+.join a:nth-child(4){
+    background:url(/images/SocialMediaIcons/Facebook_Black.png) no-repeat;
+	background-size:100% 100%;
+}
+.join a:nth-child(4):hover{
+    background:url(/images/SocialMediaIcons/Facebook_Black.png) no-repeat;
+	background-size:100% 100%;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.join a:nth-child(1){
+    background:url(/images/SocialMediaIcons/VKontakte_Black.png) no-repeat;
+	background-size:100% 100%;
+}
+.join a:nth-child(1):hover{
+    background:url(/images/SocialMediaIcons/VKontakte_Black.png) no-repeat;
+	background-size:100% 100%;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.join a:nth-child(5){
+    background:url(/images/SocialMediaIcons/Twitter_Black.png) no-repeat;
+	background-size:100% 100%;
+}
+.join a:nth-child(5):hover{
+    background:url(/images/SocialMediaIcons/Twitter_Black.png) no-repeat;
+	background-size:100% 100%;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.join a:nth-child(3){
+    background:url(/images/SocialMediaIcons/YouTube_Black.png) no-repeat;
+	background-size:100% 100%;
+}
+.join a:nth-child(3):hover{
+    background:url(/images/SocialMediaIcons/YouTube_Black.png) no-repeat;
+	background-size:100% 100%;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.join a:nth-child(6){
+    background:url(/images/SocialMediaIcons/Instagram_Black.png) no-repeat;
+    background-size:100% 100%;
+}
+.join a:nth-child(6):hover{
+    background:url(/images/SocialMediaIcons/Instagram_Black.png) no-repeat;
+	background-size:100% 100%;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.join a:nth-child(2){
+    background:url(/images/SocialMediaIcons/Telegram_Black.png) no-repeat;
+    background-size:100% 100%;
+}
+.join a:nth-child(2):hover{
+    background:url(/images/SocialMediaIcons/Telegram_Black.png) no-repeat;
+	background-size:100% 100%;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.footer{
+    width:100%;
+    height:50px;
+
+    /*background:#e4dcff;*/
+}
+.copyright{
+    height:50px;
+    text-align:center;
+    vertical-align:bottom;
+    line-height:50px;
+    /*background:orange;*/
+    color:#1e1e1e;
+    font-size:12px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
