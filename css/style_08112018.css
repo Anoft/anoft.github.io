@@ -43,6 +43,7 @@ body{
     display:block;
     background:url(/images/OfflinePic1.jpg) no-repeat;
     background-size:cover;
+	cursor:default;
 }
 .about{
     width:100%;
