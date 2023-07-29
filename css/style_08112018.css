@@ -217,11 +217,11 @@ label textarea:not(:placeholder-shown) ~ span{
 	display:inline-block;
 	/*transition: 0.05s;*/
 }
-.join a:nth-child(4){
+.join a:nth-child(3){
     background:url(/images/SocialMediaIcons/Facebook_Black.png) no-repeat;
 	background-size:100% 100%;
 }
-.join a:nth-child(4):hover{
+.join a:nth-child(3):hover{
     background:url(/images/SocialMediaIcons/Facebook_Black.png) no-repeat;
 	background-size:100% 100%;
 	-webkit-transform: scale(1.05);
@@ -239,22 +239,22 @@ label textarea:not(:placeholder-shown) ~ span{
 	-moz-transform: scale(1.05);
 	-o-transform: scale(1.05);
 }
-.join a:nth-child(5){
+.join a:nth-child(4){
     background:url(/images/SocialMediaIcons/Twitter_Black.png) no-repeat;
 	background-size:100% 100%;
 }
-.join a:nth-child(5):hover{
+.join a:nth-child(4):hover{
     background:url(/images/SocialMediaIcons/Twitter_Black.png) no-repeat;
 	background-size:100% 100%;
 	-webkit-transform: scale(1.05);
 	-moz-transform: scale(1.05);
 	-o-transform: scale(1.05);
 }
-.join a:nth-child(3){
+.join a:nth-child(2){
     background:url(/images/SocialMediaIcons/YouTube_Black.png) no-repeat;
 	background-size:100% 100%;
 }
-.join a:nth-child(3):hover{
+.join a:nth-child(2):hover{
     background:url(/images/SocialMediaIcons/YouTube_Black.png) no-repeat;
 	background-size:100% 100%;
 	-webkit-transform: scale(1.05);
@@ -267,17 +267,6 @@ label textarea:not(:placeholder-shown) ~ span{
 }
 .join a:nth-child(6):hover{
     background:url(/images/SocialMediaIcons/Instagram_Black.png) no-repeat;
-	background-size:100% 100%;
-	-webkit-transform: scale(1.05);
-	-moz-transform: scale(1.05);
-	-o-transform: scale(1.05);
-}
-.join a:nth-child(2){
-    background:url(/images/SocialMediaIcons/Telegram_Black.png) no-repeat;
-    background-size:100% 100%;
-}
-.join a:nth-child(2):hover{
-    background:url(/images/SocialMediaIcons/Telegram_Black.png) no-repeat;
 	background-size:100% 100%;
 	-webkit-transform: scale(1.05);
 	-moz-transform: scale(1.05);
