@@ -261,11 +261,11 @@ label textarea:not(:placeholder-shown) ~ span{
 	-moz-transform: scale(1.05);
 	-o-transform: scale(1.05);
 }
-.join a:nth-child(6){
+.join a:nth-child(5){
     background:url(/images/SocialMediaIcons/Instagram_Black.png) no-repeat;
     background-size:100% 100%;
 }
-.join a:nth-child(6):hover{
+.join a:nth-child(5):hover{
     background:url(/images/SocialMediaIcons/Instagram_Black.png) no-repeat;
 	background-size:100% 100%;
 	-webkit-transform: scale(1.05);
