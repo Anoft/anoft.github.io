@@ -46,6 +46,11 @@ body{
     background-size:cover;
 	cursor:default;
 }
+.main{
+	width:100%;
+	height:calc(100vh - 282px);
+	background:#131414;
+}
 .about{
     width:100%;
     height:200px;
