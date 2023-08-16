@@ -50,9 +50,12 @@ body{
 	width:100%;
 	height:calc(100vh - 282px);
 	background:#131414;
+	vertical-align:middle;
+	display:table-cell;
 }
 .steam-widgets{
-	display: inline-block;
+	margin:auto;
+	display:block;
 	text-align:center;
 	vertical-align: middle;
 }
