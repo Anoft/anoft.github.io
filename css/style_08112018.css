@@ -58,6 +58,9 @@ body{
 	align-items:center;
 	justify-content:center;
 }
+.aligner a:nth-child(2){
+	margin:10px 0;
+}
 .steam-widgets{
 }
 .about{
