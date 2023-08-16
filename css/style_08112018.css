@@ -34,7 +34,7 @@ body{
 .slider{
     width:100%;
     /*height:calc(100vh - 200px);*/
-	height:calc(100vh - 230px);
+	height:calc(100vh - 282px);
     /*margin:100px 0 100px;*/
     background:#434;
 }
