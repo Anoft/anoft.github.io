@@ -292,12 +292,23 @@ label textarea:not(:placeholder-shown) ~ span{
 	-moz-transform: scale(1.05);
 	-o-transform: scale(1.05);
 }
-.join a:nth-child(6){
+.join a:nth-child(7){
     background:url(/images/SocialMediaIcons/Steam_Black.png) no-repeat;
     background-size:100% 100%;
 }
-.join a:nth-child(6):hover{
+.join a:nth-child(7):hover{
     background:url(/images/SocialMediaIcons/Steam_Black.png) no-repeat;
+	background-size:100% 100%;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.join a:nth-child(6){
+    background:url(/images/SocialMediaIcons/Pinterest_Black.png) no-repeat;
+    background-size:100% 100%;
+}
+.join a:nth-child(6):hover{
+    background:url(/images/SocialMediaIcons/Pinterest_Black.png) no-repeat;
 	background-size:100% 100%;
 	-webkit-transform: scale(1.05);
 	-moz-transform: scale(1.05);
